@@ -24,7 +24,7 @@ More information can be found on the official Piwik website at http://piwik.org
 
         cd piwik/php  
         rm -rf *  
-        git remote add upstream -m master git://github.com/gshipley/piwik-openshift-quickstart.git  
+        git remote add upstream -m master git://github.com/tbrunell/piwik-openshift-quickstart.git  
         git pull -s recursive -X theirs upstream master
 
     Then push the repo upstream to OpenShift
